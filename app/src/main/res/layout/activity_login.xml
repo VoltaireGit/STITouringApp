@@ -9,34 +9,28 @@
     android:orientation="vertical"
     android:background="#14151B">
 
-
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:paddingStart="15dp"
-        >
+        android:layout_gravity="center">
 
         <ImageView
-
             android:layout_gravity="center"
             android:id="@+id/Login"
-            android:layout_width="300dp"
+            android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:src="@drawable/login"
             />
-
-
-
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_gravity="center"
-            android:layout_marginEnd="60dp"
-            android:layout_marginStart="65dp"
-            android:layout_marginTop="45dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginBottom="40dp"
+            android:paddingTop="200dp"
             >
 
             <TextView
@@ -46,21 +40,21 @@
                 android:layout_gravity="center"
                 android:text="Login now"
                 android:textColor="@color/blue"
-                android:textSize="40sp"
+                android:textSize="30sp"
                 android:fontFamily="@font/baloopaaji"
-
-                android:layout_marginTop="105dp"
+                android:layout_marginTop="60dp"
                 />
-
 
                 <TextView
                     android:id="@+id/StudentAccountText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/blue"
-                    android:text="Student Account"
-                    android:textSize="18sp"
+                    android:textColor="#C3C3C3"
+                    android:text="Student's Account"
+                    android:textSize="16sp"
                     android:fontFamily="@font/baloopaajitwo"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="8dp"
                     />
 
                 <EditText
@@ -68,28 +62,31 @@
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:background="@drawable/logintextbox"
-                    android:layout_margin="10dp"
-                    android:layout_below="@+id/StudentAccountText"/>
-
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"/>
 
                 <TextView
                     android:id="@+id/PasswordText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/blue"
+                    android:textColor="#C3C3C3"
                     android:text="Password"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
                     android:fontFamily="@font/baloopaajitwo"
-                    android:layout_below="@+id/StudentAccountInput"
-                    />
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="8dp"/>
 
             <EditText
                 android:id="@+id/PasswordInput"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:background="@drawable/logintextbox"
-                android:layout_margin="10dp"
-                android:layout_below="@+id/PasswordText"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
                 />
 
             <TextView
@@ -98,12 +95,12 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="forgot the password?"
-                android:textSize="18sp"
+                android:text="Forgot the password?"
+                android:textSize="14sp"
                 android:fontFamily="@font/baloopaajitwo"
-                android:textColor="@color/blue"
-                android:layout_below="@id/PasswordInput"
+                android:textColor="#C3C3C3"
                 android:layout_gravity="center"
+                android:layout_marginTop="8dp"
                 />
 
             <TextView
@@ -111,8 +108,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:textSize="30dp"
-                android:layout_centerInParent="true"
+                android:textSize="24sp"
                 android:fontFamily="@font/baloopaaji"
                 android:text="Login"
                 android:layout_gravity="center"
@@ -121,13 +117,15 @@
                 android:paddingRight="40dp"
                 android:shadowColor="@color/black"
                 android:shadowRadius="10"
+                android:layout_marginTop="16dp"
                 />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp">
 
                 <TextView
                     android:id="@+id/CreateAccount"
@@ -135,61 +133,46 @@
                     android:layout_height="wrap_content"
                     android:clickable="true"
                     android:focusable="true"
-                    android:text="Create Account"
+                    android:text="Create account"
                     android:fontFamily="@font/baloopaajitwo"
                     android:textColor="#0E81DB"
-                    android:layout_below="@+id/LoginButton"
-                    android:textSize="18sp"
-                    android:layout_marginTop="30dp"
-                    android:layout_gravity="center" />
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:translationY="-9dp"/>
 
                 <View
-                    android:layout_below="@+id/CreateAccount"
                     android:layout_width="match_parent"
                     android:layout_height="2dp"
+                    android:translationY="-15dp"
                     android:background="#0E81DB"
                     />
-
-
             </LinearLayout>
-
-
-
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_gravity="bottom|center">
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="34dp">
 
             <TextView
                 android:id="@+id/GuestAccount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="VIsit as Gest Account"
+                android:text="Visit as Guest account"
                 android:clickable="true"
                 android:focusable="true"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:layout_gravity="center|bottom"
                 android:fontFamily="@font/baloopaaji"
-                android:textColor="@color/orange"
-                />
+                android:textColor="@color/orange" />
 
             <View
-                android:layout_below="@+id/GuestAccount"
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
+                android:translationY="-6dp"
                 android:background="@color/orange"/>
-
         </LinearLayout>
-
-
-
-
-
     </FrameLayout>
-
-
-
 </LinearLayout>

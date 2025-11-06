@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.STITouringApp">
         <activity
+            android:name=".GuestProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
             android:name=".ForgotPassword"
             android:exported="true" />
         <activity
