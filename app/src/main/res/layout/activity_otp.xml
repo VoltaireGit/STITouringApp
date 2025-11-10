@@ -89,7 +89,8 @@
                     android:src="@drawable/createaccount_textbox"
                     android:layout_gravity="bottom|center"
                     android:layout_marginBottom="30dp"
-                    android:layout_margin="30dp"/>
+                    android:layout_margin="30dp"
+                    />
 
                 <ImageView
                     android:layout_width="wrap_content"

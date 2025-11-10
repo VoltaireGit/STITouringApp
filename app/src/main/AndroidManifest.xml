@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.STITouringApp">
         <activity
+            android:name=".Tour"
+            android:exported="false"
+            android:label="@string/title_activity_tour"
+            android:theme="@style/Theme.STITouringApp" />
+        <activity
             android:name=".ForgotPassword"
             android:exported="true" />
         <activity

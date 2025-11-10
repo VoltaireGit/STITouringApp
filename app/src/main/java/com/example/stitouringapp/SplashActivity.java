@@ -7,7 +7,7 @@ import android.os.Looper;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashActivity extends AppCompatActivity {
-    private static final long SPLASH_MS = 5000; // 5 seconds
+    private static final long SPLASH_MS = 3000; // 3 seconds
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
