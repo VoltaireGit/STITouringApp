@@ -14,18 +14,18 @@ public class ProfileFragment extends Fragment {
 
 private FragmentProfileBinding binding;
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
-            ViewGroup container, Bundle savedInstanceState) {
-        NotificationsViewModel notificationsViewModel =
-                new ViewModelProvider(this).get(NotificationsViewModel.class);
-
-    binding = FragmentProfileBinding.inflate(inflater, container, false);
-    View root = binding.getRoot();
-
-        final TextView textView = binding.Profile;
-        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
-        return root;
-    }
+//    public View onCreateView(@NonNull LayoutInflater inflater,
+//            ViewGroup container, Bundle savedInstanceState) {
+//        NotificationsViewModel notificationsViewModel =
+//                new ViewModelProvider(this).get(NotificationsViewModel.class);
+//
+//    binding = FragmentProfileBinding.inflate(inflater, container, false);
+//    View root = binding.getRoot();
+//
+//        final TextView textView = binding.titleHeader;
+//        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+//        return root;
+//    }
 
 @Override
     public void onDestroyView() {

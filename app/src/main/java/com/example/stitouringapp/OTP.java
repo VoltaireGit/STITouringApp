@@ -20,6 +20,10 @@ public class OTP extends AppCompatActivity {
 
         btnVerify = findViewById(R.id.btnVerify);
 
+        int correctOtp = getIntent().getIntExtra("otp", 0);
+        String username = getIntent().getStringExtra("username");
+
+
         btnVerify.setOnClickListener(v -> {
             // Show welcome toast
             Toast.makeText(this, "Welcome, " + username + "!", Toast.LENGTH_SHORT).show();

@@ -5,4 +5,7 @@
     <color name="blue">#5B99C2</color>
     <color name="orange">#FF5A29</color>
     <color name="background">#14151B</color>
+    <color name="bluearrow">#4B82F0</color>
+    <color name="gray">#36454F</color>
+
 </resources>

@@ -49,7 +49,7 @@
 
     <!-- Left Arrow -->
     <ImageButton
-        android:id="@+id/btnPrev"
+        android:id="@+id/arrow_back"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:background="@android:color/transparent"
@@ -87,7 +87,7 @@
 
     <!-- Right Arrow -->
     <ImageButton
-        android:id="@+id/btnNext"
+        android:id="@+id/arrow_next"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:background="@android:color/transparent"
